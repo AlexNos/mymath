@@ -14,6 +14,10 @@ func Ceil(x float64) float64 {
     return math.Ceil(x)
 }
 
+func Yn(n int, x float64) float64 {
+    return math.Yn(n, x)
+}
+
 func Floor(x float64) float64 {
     return math.Floor(x)
 }
